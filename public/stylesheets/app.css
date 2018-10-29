@@ -1,15 +1,49 @@
-img {
-  width: 100%;
+#banner{
+    height: 100vh;
+    background-image: url('https://i.postimg.cc/sXdFdLdB/banner-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0 3px 3px rgba(0,0,0,.9);
 }
 
-.thumbnail{
-  padding: 0;
+.banner-content{
+    position: relative;
+    top: 200px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
 }
 
-.thumbnail .caption-full{
-  padding: 9px;
+#campgrounds{
+  margin-top: 70px;
 }
 
-.delete-form{
-  display: inline;
-}
+
+
+
+
+
+
+
+
+
+
+/*img {*/
+/*  width: 100%;*/
+/*}*/
+
+/*.thumbnail{*/
+/*  padding: 0;*/
+/*}*/
+
+/*.thumbnail .caption-full{*/
+/*  padding: 9px;*/
+/*}*/
+
+/*.delete-form{*/
+/*  display: inline;*/
+/*}*/
