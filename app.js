@@ -62,5 +62,3 @@ app.listen(process.env.PORT, process.env.IP, function(){
 });
 
 //MAKE SURE ./mongod IS RUNNING ON ANOHTER TERMINAL
-
-// jus t a bunch of gibberish jkfljdslaflksdjkjfkldslkfdsalk
