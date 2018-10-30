@@ -1,11 +1,42 @@
 <% include ./partials/header %>
 
-<h1>Login</h1>
+<Section id="login-form">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-content">
+                        <h1 class="card-title">Login</h1>
+                        <form action="/login" method="POST">
+                        <div class="row">
+                            <div class="input-field col s12">
+                              <input name="username" id="username" type="text" class="validate">
+                              <label for="username">Username</label>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <input name="password" id="password" type="password" class="validate">
+                              <label for="password">Password</label>
+                            </div>
+                          </div>
+                          <button class="btn">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</Section>
 
-<form method="POST" action="/login">
-    <input type="text" name="username" placeholder="Username">
-    <input type="password" name="password" placeholder="Password">
-    <button>Login</button>
-</form>
+
+
+<!--<h1>Login</h1>-->
+
+<!--<form method="POST" action="/login">-->
+<!--    <input type="text" name="username" placeholder="Username">-->
+<!--    <input type="password" name="password" placeholder="Password">-->
+<!--    <button>Login</button>-->
+<!--</form>-->
 
 <% include ./partials/footer %>

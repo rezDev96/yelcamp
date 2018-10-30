@@ -3,6 +3,7 @@ body{
   color: #5b5b5b;
 }
 
+/* CAMPGRROUNDS.EJS */
 #banner{
     height: 100vh;
     background-image: url('https://i.postimg.cc/sXdFdLdB/banner-2.jpg');
@@ -39,28 +40,16 @@ body{
     padding-top: 70px;
 }
 
+/* LOGIN.EJS */
+#login-form .card{
+    width: 70%; 
+    margin: 10% auto;
+}
 
-
-
-
-
-
-
-
-
-
-/*img {*/
-/*  width: 100%;*/
-/*}*/
-
-/*.thumbnail{*/
-/*  padding: 0;*/
-/*}*/
-
-/*.thumbnail .caption-full{*/
-/*  padding: 9px;*/
-/*}*/
-
-/*.delete-form{*/
-/*  display: inline;*/
-/*}*/
+#login-form .card-title{
+    color: #388e3c;
+    border-left: 5px solid #388e3c;
+    padding-left: 4px;
+    margin-right: 40px;
+    font-size: 40px;
+}
