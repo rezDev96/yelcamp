@@ -45,12 +45,12 @@
   <ul class="sidenav" id="mobile-nav">
     <!-- If no user is signed in, show the following -->
     <% if(!currentUser){ %>
-      <li><a href="/login">Login</a></li>
-      <li><a href="/register">Sign up</a></li>
+      <li><a href="/login"><i class="fas fa-user"></i> Login</a></li>
+      <li><a href="/register"><i class="fas fa-user-plus"></i> Sign up</a></li>
       <!-- Else, show the following -->
     <% } else{ %>
-      <li><a href="#">Logged in as <%= currentUser.username %></a></li>
-      <li><a href="/logout">Logout</a></li>
+      <li><a href="#"><i class="fas fa-user"></i> Welcome <%= currentUser.username %></a></li>
+      <li><a href="/logout"><i class="fas fa-user-times"></i> Logout</a></li>
     <% } %>
   </ul>
   
