@@ -6,7 +6,7 @@ body{
 .form-header{
     font-size: 26px;
     font-weight: 300;
-    
+    margin-bottom: 60px;
 }
 
 .form-btn{
@@ -51,10 +51,20 @@ body{
 }
 
 /* LOGIN.EJS */
+#login-form .card{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 #login-form .card-title{
     color: #388e3c;
     border-left: 5px solid #388e3c;
     padding-left: 4px;
     margin-right: 40px;
     font-size: 40px;
+}
+
+#login-form .form-btn{
+    display: inline-block;
+    width: 100%;
 }
