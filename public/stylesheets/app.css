@@ -18,6 +18,14 @@
     text-transform: uppercase;
 }
 
+.banner-content h1{
+    font-weight: 300;
+}
+
+.banner-content h3{
+    font-weight: 300;
+}
+
 #campgrounds{
   margin-top: 70px;
 }
