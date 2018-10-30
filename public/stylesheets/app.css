@@ -1,3 +1,7 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
 #banner{
     height: 100vh;
     background-image: url('https://i.postimg.cc/sXdFdLdB/banner-2.jpg');
@@ -10,7 +14,7 @@
 
 .banner-content{
     position: relative;
-    top: 200px;
+    top: 160px;
     display: block;
     width: 100%;
     text-align: center;
@@ -19,11 +23,16 @@
 }
 
 .banner-content h1{
+    font-size: 50px;
     font-weight: 300;
+    letter-spacing: 6px;
 }
 
 .banner-content h3{
     font-weight: 300;
+    font-size: 1.30em;
+    line-height: 1.7em;
+    letter-spacing: 5px;
 }
 
 #campgrounds{
