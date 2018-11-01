@@ -13,6 +13,10 @@ body{
     font-weight: 300;
 }
 
+.card .input-field .prefix .active{
+    color: red;
+}
+
 /* CAMPGRROUNDS.EJS */
 #banner{
     height: 100vh;
@@ -67,4 +71,5 @@ body{
 #login-form .form-btn{
     display: inline-block;
     width: 100%;
+    margin: 25px 0 45px 0;
 }
