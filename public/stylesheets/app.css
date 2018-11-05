@@ -54,7 +54,7 @@ body{
     padding-top: 70px;
 }
 
-/* LOGIN.EJS */
+/* LOGIN.EJS and REGISTER.EJS */
 #login-form .card{
     max-width: 500px;
     margin: 0 auto;
