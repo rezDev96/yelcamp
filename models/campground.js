@@ -5,7 +5,10 @@ var campgroundSchema = new mongoose.Schema({
     name: String,
     image: String,
     price: String,
-    description: String, 
+    description: String,
+    location: String,
+    lat: Number,
+    lng: Number,
     author: {
         // Referencing from the User Schema
         id: {
