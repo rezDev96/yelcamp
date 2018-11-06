@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col l3">
-          <a href="/campgrounds" class="btn btn-danger">Back to campgrounds</a>
+          <a href="/campgrounds" class="btn btn-danger">Go back</a>
         </div>
         <div class="col l9">
           <!-- Campground -->
@@ -32,9 +32,9 @@
             <% campground.comments.forEach(function(comment){ %>
               <div class="row">
                 <div class="col-md-12">
-                  <span><strong><%= comment.author.username %></strong></span>
+                  <span class="comment-author"><em><%= comment.author.username %></em></span>
                   <span class="right">10 days ago</span>
-                  <p><%= comment.text %></p>
+                  <p class="comment-text"><%= comment.text %></p>
                   <% if(currentUser && comment.author.id.equals(currentUser._id)){ %>
                     <a class="btn-small yellow darken-3" 
                     href="/campgrounds/<%= campground._id %>/comments/<%= comment._id %>/edit">

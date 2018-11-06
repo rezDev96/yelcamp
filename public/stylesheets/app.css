@@ -86,3 +86,11 @@ body{
 #show btn-flat{
     font-weight: 300;
 }
+
+.card-panel .comment-author{
+    font-weight: 700;
+}
+
+.card-panel .comment-text{
+    margin-top: 3px;
+}
