@@ -3,20 +3,6 @@ body{
   color: #5b5b5b;
 }
 
-.form-header{
-    font-size: 26px;
-    font-weight: 300;
-    margin-bottom: 60px;
-}
-
-.form-btn{
-    font-weight: 300;
-}
-
-.card .input-field .prefix .active{
-    color: red;
-}
-
 /* CAMPGRROUNDS.EJS */
 #banner{
     height: 100vh;
@@ -54,7 +40,7 @@ body{
     padding-top: 70px;
 }
 
-/* LOGIN.EJS and REGISTER.EJS */
+/* LOGIN.EJS and REGISTER.EJS*/
 #login-form .card{
     max-width: 500px;
     margin: 0 auto;
@@ -72,4 +58,31 @@ body{
     display: inline-block;
     width: 100%;
     margin: 25px 0 45px 0;
+}
+
+.form-header{
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.form-btn{
+    font-weight: 300;
+}
+
+/* SHOW.EJS */
+#show{
+    margin-top: 50px;
+}
+#show .card-content p{
+    font-size: 18px;
+    line-height: 1.5em;
+    padding: 10px 0;
+}
+#show .delete-form{
+    display: inline-block;
+}
+
+#show btn-flat{
+    font-weight: 300;
 }
