@@ -83,7 +83,7 @@ body{
     display: inline-block;
 }
 
-#show btn-flat{
+#show .btn-flat{
     font-weight: 300;
 }
 
@@ -93,4 +93,38 @@ body{
 
 .card-panel .comment-text{
     margin-top: 3px;
+}
+
+/* NEW.EJS */
+#new-campground .card{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#new-campground .card-title{
+    color: #e53935;
+}
+/* label focus color */
+#new-campground .card .input-field input:focus + label{
+    color: #e53935;
+}
+
+#new-campground .card .input-field textarea:focus + label{
+    color: #e53935;
+}
+
+/* label underline focus color */
+#new-campground .card .input-field input:focus {
+     border-bottom: 1px solid #e53935;
+     box-shadow: 0 1px 0 0 #e53935;
+}
+
+#new-campground .card .input-field textarea:focus {
+     border-bottom: 1px solid #e53935;
+     box-shadow: 0 1px 0 0 #e53935;
+}
+
+/* icon prefix focus color */
+#new-campground .card .input-field .prefix.active {
+     color: #e53935;
 }
