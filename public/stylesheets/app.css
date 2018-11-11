@@ -3,6 +3,23 @@ body{
   color: #5b5b5b;
 }
 
+.form-header{
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.btn-flat{
+    font-weight: 300;
+}
+
+.btn-small{
+    font-weight: 300;
+}
+
+.btn-large{
+    font-weight: 300;
+}
+
 /* CAMPGRROUNDS.EJS */
 #banner{
     height: 100vh;
@@ -15,25 +32,31 @@ body{
 
 .banner-content{
     position: relative;
-    top: 140px;
+    top: 110px;
     display: block;
-    width: 100%;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 40px 0;
 }
 
 .banner-content h1{
     font-size: 50px;
     font-weight: 300;
-    letter-spacing: 6px;
+    letter-spacing: 3px;
+}
+
+.banner-content hr{
+    border-top: 1px solid #fff;
+    width: 50%;
 }
 
 .banner-content h3{
     font-weight: 300;
     font-size: 1.30em;
     line-height: 1.7em;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 
 #campgrounds{
@@ -60,16 +83,6 @@ body{
     margin: 25px 0 45px 0;
 }
 
-.form-header{
-    font-size: 26px;
-    font-weight: 300;
-    margin-bottom: 60px;
-}
-
-.form-btn{
-    font-weight: 300;
-}
-
 /* SHOW.EJS */
 #show{
     margin-top: 50px;
@@ -83,14 +96,55 @@ body{
     display: inline-block;
 }
 
-#show btn-flat{
-    font-weight: 300;
-}
-
 .card-panel .comment-author{
     font-weight: 700;
 }
 
 .card-panel .comment-text{
     margin-top: 3px;
+}
+
+/* NEW.EJS AND EDIT.EJS */
+#campground-form .card{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#campground-form .card-title{
+    color: #e53935;
+    font-size: 32px;
+}
+/* label focus color */
+#campground-form .card .input-field input:focus + label{
+    color: #e53935;
+}
+
+#campground-form .card .input-field textarea:focus + label{
+    color: #e53935;
+}
+
+/* label underline focus color */
+#campground-form .card .input-field input:focus {
+     border-bottom: 1px solid #e53935;
+     box-shadow: 0 1px 0 0 #e53935;
+}
+
+#campground-form .card .input-field textarea:focus {
+     border-bottom: 1px solid #e53935;
+     box-shadow: 0 1px 0 0 #e53935;
+}
+
+/* icon prefix focus color */
+#campground-form .card .input-field .prefix.active {
+     color: #e53935;
+}
+
+#campground-form textarea{
+    height: 200px;
+}
+
+#campground-form .card-action a{
+    color: #e53935;
+    font-size: 16px;
+    margin: 20px;
 }
