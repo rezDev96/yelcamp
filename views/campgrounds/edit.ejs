@@ -34,6 +34,13 @@
                           </div>
                           <div class="row">
                             <div class="input-field col s12">
+                              <i class="material-icons prefix">image</i>
+                              <input name="location" id="location" type="text" class="validate" value="<%= campground.location %>">
+                              <label for="location">Yosemite National Park, CA</label>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s12">
                               <i class="material-icons prefix">short_text</i>
                               <textarea name="campground[description]" id="description" class="materialize-textarea"><%= campground.description %></textarea>
                               <label for="description">Description</label>
