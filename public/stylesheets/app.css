@@ -108,7 +108,7 @@ body{
     margin-top: 3px;
 }
 
-/* NEW.EJS AND EDIT.EJS */
+/* CAMPGROUND: NEW.EJS AND EDIT.EJS */
 #campground-form .card{
     max-width: 700px;
     margin: 0 auto;
@@ -151,4 +151,14 @@ body{
     color: #e53935;
     font-size: 16px;
     margin: 20px;
+}
+
+/* COMMENT: NEW.EJS AND EDIT.EJS */
+#comment-form .card-panel{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#comment-form textarea{
+    height: 200px;
 }
