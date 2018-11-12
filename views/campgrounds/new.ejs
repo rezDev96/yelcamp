@@ -1,14 +1,54 @@
 <% include ../partials/header %>
 
-<div class="container">
-  <div class="row">
-    <h1 class="text-center">Create a new campground</h1>
-    
-    <div style="width: 30%; margin: 30px auto;">
-      <form action="/campgrounds" method="POST">
-        <div class="form-group">
-          <input class="form-control" type="text" name="name" placeholder="Name">
+<Section id="campground-form">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h3 class="center form-header">Add new campground</h3>
+            </div>
+            <div class="col s12">
+                <div class="card center-align">
+                    <div class="card-content">
+                        <h2 class="card-title">New campground</h2>
+                        <form action="/campgrounds" method="POST">
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <i class="material-icons prefix">terrain</i>
+                              <input name="name" id="name" type="text" class="validate">
+                              <label for="name">Campground</label>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <i class="material-icons prefix">attach_money</i>
+                              <input name="price" id="price" type="number" min="0.01" step="0.01" class="validate">
+                              <label for="price">Price</label>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <i class="material-icons prefix">image</i>
+                              <input name="image" id="image" type="text" class="validate">
+                              <label for="image">Image</label>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <i class="material-icons prefix">short_text</i>
+                              <textarea name="description" id="description" class="materialize-textarea"></textarea>
+                              <label for="description">Description</label>
+                            </div>
+                          </div>
+                          <button class="btn-flat btn-large red darken-1 white-text waves-effect waves-light form-btn">Submit</button>
+                        </form>
+                    </div>
+                    <div class="card-action">
+                      <a href="/campgrounds">Back to campgrounds</a>
+                    </div>
+                </div>
+            </div>
         </div>
+<<<<<<< HEAD
         <div class="form-group">
           <input class="form-control" type="number" name="price" placeholder="Price" min="0.01" step="0.01">
         </div>
@@ -27,9 +67,9 @@
         </div>
       </form>
       <a href="/campgrounds">Go Back</a>
+=======
+>>>>>>> add-materialize
     </div>
-  </div>
-</div>
-
+</Section>
 
 <% include ../partials/footer %>

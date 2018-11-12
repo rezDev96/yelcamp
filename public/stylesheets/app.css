@@ -1,15 +1,18 @@
-img {
-  width: 100%;
+body{
+  font-family: 'Lato', sans-serif;
+  color: #5b5b5b;
 }
 
-.thumbnail{
-  padding: 0;
+.form-header{
+    font-weight: 300;
+    margin-bottom: 60px;
 }
 
-.thumbnail .caption-full{
-  padding: 9px;
+.btn-flat{
+    font-weight: 300;
 }
 
+<<<<<<< HEAD
 .delete-form{
   display: inline;
 }
@@ -17,4 +20,161 @@ img {
 #map{
     height: 400px;
     width: auto;
+=======
+.btn-small{
+    font-weight: 300;
+}
+
+.btn-large{
+    font-weight: 300;
+}
+
+.alert-success{
+    position: absolute;
+    z-index: 2;
+}
+
+/* CAMPGRROUNDS.EJS */
+#banner{
+    height: 100vh;
+    background-image: url('https://i.postimg.cc/sXdFdLdB/banner-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.banner-content{
+    position: relative;
+    top: 110px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 40px 0;
+}
+
+.banner-content h1{
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.banner-content hr{
+    border-top: 1px solid #fff;
+    width: 50%;
+}
+
+.banner-content h3{
+    font-weight: 300;
+    font-size: 1.30em;
+    line-height: 1.7em;
+    letter-spacing: 2px;
+}
+
+#campgrounds{
+    padding-top: 70px;
+}
+
+/* LOGIN.EJS and REGISTER.EJS*/
+.form-header{
+    font-size: 2.5rem;
+}
+
+#login-form .card{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#login-form .card-title{
+    color: #388e3c;
+    border-left: 5px solid #388e3c;
+    padding-left: 4px;
+    margin-right: 40px;
+    font-size: 40px;
+}
+
+#login-form .form-btn{
+    display: inline-block;
+    width: 100%;
+    margin: 25px 0 45px 0;
+}
+
+/* SHOW.EJS */
+#show{
+    margin-top: 50px;
+}
+#show .card-content p{
+    font-size: 18px;
+    line-height: 1.5em;
+    padding: 10px 0;
+}
+#show .delete-form{
+    display: inline-block;
+}
+
+.card-panel .comment-author{
+    font-weight: 700;
+}
+
+.card-panel .comment-text{
+    margin-top: 3px;
+}
+
+/* CAMPGROUND: NEW.EJS AND EDIT.EJS */
+#campground-form .card{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#campground-form .card-title{
+    color: #e53935;
+    font-size: 32px;
+}
+/* label focus color */
+#campground-form .card .input-field input:focus + label{
+    color: #e53935;
+}
+
+#campground-form .card .input-field textarea:focus + label{
+    color: #e53935;
+}
+
+/* label underline focus color */
+#campground-form .card .input-field input:focus {
+     border-bottom: 1px solid #e53935;
+     box-shadow: 0 1px 0 0 #e53935;
+}
+
+#campground-form .card .input-field textarea:focus {
+     border-bottom: 1px solid #e53935;
+     box-shadow: 0 1px 0 0 #e53935;
+}
+
+/* icon prefix focus color */
+#campground-form .card .input-field .prefix.active {
+     color: #e53935;
+}
+
+#campground-form textarea{
+    height: 200px;
+}
+
+#campground-form .card-action a{
+    color: #e53935;
+    font-size: 16px;
+    margin: 20px;
+}
+
+/* COMMENT: NEW.EJS AND EDIT.EJS */
+#comment-form .card-panel{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#comment-form textarea{
+    height: 200px;
+>>>>>>> add-materialize
 }
