@@ -20,6 +20,11 @@ body{
     font-weight: 300;
 }
 
+.alert-success{
+    position: absolute;
+    z-index: 2;
+}
+
 /* CAMPGRROUNDS.EJS */
 #banner{
     height: 100vh;
@@ -28,6 +33,7 @@ body{
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    z-index: 1;
 }
 
 .banner-content{
