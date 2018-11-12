@@ -64,6 +64,10 @@ body{
 }
 
 /* LOGIN.EJS and REGISTER.EJS*/
+.form-header{
+    font-size: 2.5rem;
+}
+
 #login-form .card{
     max-width: 500px;
     margin: 0 auto;
