@@ -3,6 +3,11 @@ body{
   color: #5b5b5b;
 }
 
+a:focus, a:hover {
+     color: #fff; 
+     text-decoration: none; 
+}
+
 .form-header{
     font-weight: 300;
     margin-bottom: 60px;
@@ -12,7 +17,6 @@ body{
     font-weight: 300;
 }
 
-<<<<<<< HEAD
 .delete-form{
   display: inline;
 }
@@ -20,7 +24,8 @@ body{
 #map{
     height: 400px;
     width: auto;
-=======
+}
+
 .btn-small{
     font-weight: 300;
 }
@@ -176,5 +181,4 @@ body{
 
 #comment-form textarea{
     height: 200px;
->>>>>>> add-materialize
 }
