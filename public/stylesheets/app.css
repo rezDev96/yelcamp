@@ -47,7 +47,6 @@ a:focus, a:hover {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    z-index: 1;
 }
 
 .banner-content{
@@ -183,6 +182,21 @@ a:focus, a:hover {
     height: 200px;
 }
 
-@media only screen and (max-width: 394px) {
-
+/* Devices for smaller than 425px */
+@media only screen and (max-width: 425px) {
+    .container{
+        width: 100%;
+    }
+    
+    .banner-content{
+        top: 60px;
+    }
+    
+    .card .card-content{
+        padding: 10px;
+    }
+    
+    #show .card-content p{
+        font-size: 16px;
+    }
 }
