@@ -188,6 +188,14 @@ a:focus, a:hover {
         width: 100%;
     }
     
+    #campgrounds .row .col{
+        padding: 0;
+    }
+    
+    #show .row .col{
+        padding: 0;
+    }
+    
     .banner-content{
         top: 60px;
     }
